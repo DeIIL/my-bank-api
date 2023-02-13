@@ -1,0 +1,159 @@
+2023-02-08T18:38:44.320Z my-bank-api info: API Started and file Created
+2023-02-08T18:38:58.277Z my-bank-api info: POST /account - {"id":1,"name":"Gustavo Dek","balance":1300}
+2023-02-08T18:41:44.463Z my-bank-api info: API Started
+2023-02-08T18:41:53.003Z my-bank-api info: API Started
+2023-02-08T18:42:13.582Z my-bank-api info: API Started
+2023-02-08T18:43:02.048Z my-bank-api info: API Started
+2023-02-08T18:44:22.365Z my-bank-api info: API Started
+2023-02-08T18:46:40.616Z my-bank-api info: API Started
+2023-02-08T18:47:01.377Z my-bank-api info: API Started
+2023-02-08T18:47:17.711Z my-bank-api info: API Started
+2023-02-08T18:47:28.644Z my-bank-api info: API Started
+2023-02-08T18:47:40.515Z my-bank-api info: API Started
+2023-02-08T18:47:53.757Z my-bank-api info: API Started
+2023-02-08T18:48:13.430Z my-bank-api info: GET /account
+2023-02-08T18:50:07.250Z my-bank-api info: GET /account/:id
+2023-02-08T18:50:20.318Z my-bank-api info: POST /account - {"id":2,"name":"Gustavo Del","balance":1300}
+2023-02-08T18:50:25.381Z my-bank-api info: DELETE /account/:id - 2
+2023-02-08T18:50:37.602Z my-bank-api error: PUT /account - account is not defined
+2023-02-08T18:51:21.247Z my-bank-api error: PUT /account - account is not defined
+2023-02-08T18:53:42.191Z my-bank-api error: PUT /account - account is not defined
+2023-02-08T18:53:49.325Z my-bank-api error: PUT /account - account is not defined
+2023-02-08T18:58:10.026Z my-bank-api info: API Started
+2023-02-08T18:58:11.197Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T18:58:37.303Z my-bank-api info: API Started
+2023-02-08T18:58:45.683Z my-bank-api info: PATCH /account/updateBalance - {"id":1,"balance":4400}
+2023-02-08T18:59:48.856Z my-bank-api info: API Started
+2023-02-08T19:03:38.070Z my-bank-api info: PATCH /account/updateBalance - {"id":1,"balance":4400}
+2023-02-08T19:04:03.668Z my-bank-api info: API Started
+2023-02-08T19:04:16.055Z my-bank-api info: API Started
+2023-02-08T19:07:08.851Z my-bank-api info: API Started
+2023-02-08T19:07:43.223Z my-bank-api info: API Started
+2023-02-08T19:09:52.972Z my-bank-api info: API Started
+2023-02-08T19:10:47.769Z my-bank-api info: API Started
+2023-02-08T19:11:13.216Z my-bank-api info: API Started
+2023-02-08T19:11:41.815Z my-bank-api info: API Started
+2023-02-08T19:12:10.334Z my-bank-api info: API Started
+2023-02-08T19:14:17.363Z my-bank-api info: API Started
+2023-02-08T19:14:30.252Z my-bank-api info: API Started
+2023-02-08T19:15:01.484Z my-bank-api info: API Started
+2023-02-08T19:15:11.903Z my-bank-api error: GET /account - data is not defined
+2023-02-08T19:16:06.865Z my-bank-api info: API Started
+2023-02-08T19:16:38.262Z my-bank-api error: POST /account - readFile is not defined
+2023-02-08T19:17:04.836Z my-bank-api info: API Started
+2023-02-08T19:17:06.383Z my-bank-api info: API Started
+2023-02-08T19:17:08.161Z my-bank-api info: POST /account - {"id":3,"name":"Gustavo Del","balance":1300}
+2023-02-08T19:17:10.742Z my-bank-api error: GET /account - data is not defined
+2023-02-08T19:17:23.262Z my-bank-api info: API Started
+2023-02-08T19:17:29.161Z my-bank-api info: API Started
+2023-02-08T19:17:37.773Z my-bank-api info: API Started
+2023-02-08T19:17:37.874Z my-bank-api error: GET /account - data is not defined
+2023-02-08T19:18:28.075Z my-bank-api info: API Started
+2023-02-08T19:18:28.702Z my-bank-api error: GET /account - Assignment to constant variable.
+2023-02-08T19:18:38.258Z my-bank-api error: GET /account - Assignment to constant variable.
+2023-02-08T19:19:01.009Z my-bank-api info: API Started
+2023-02-08T19:19:02.815Z my-bank-api info: API Started
+2023-02-08T19:19:02.892Z my-bank-api info: GET /account
+2023-02-08T19:24:02.396Z my-bank-api info: API Started
+2023-02-08T19:24:08.882Z my-bank-api info: GET /account
+2023-02-08T19:26:31.544Z my-bank-api info: API Started
+2023-02-08T19:26:37.192Z my-bank-api info: API Started
+2023-02-08T19:27:42.111Z my-bank-api info: API Started
+2023-02-08T19:27:50.137Z my-bank-api error: GET /account - request is not defined
+2023-02-08T19:28:16.721Z my-bank-api info: API Started
+2023-02-08T19:28:17.937Z my-bank-api error: GET /account - Cannot read properties of undefined (reading 'params')
+2023-02-08T19:31:20.697Z my-bank-api info: API Started
+2023-02-08T19:31:28.873Z my-bank-api info: GET /account/:id
+2023-02-08T19:31:58.498Z my-bank-api info: API Started
+2023-02-08T19:32:03.005Z my-bank-api info: GET /account/:id
+2023-02-08T19:33:10.315Z my-bank-api info: API Started
+2023-02-08T19:34:18.142Z my-bank-api info: API Started
+2023-02-08T19:34:29.926Z my-bank-api info: GET /account
+2023-02-08T19:34:35.976Z my-bank-api error: DELETE /account - accountService.deleteAccountById is not a function
+2023-02-08T19:34:52.915Z my-bank-api info: API Started
+2023-02-08T19:35:08.150Z my-bank-api error: DELETE /account - accountService.deleteAccountById is not a function
+2023-02-08T19:35:35.333Z my-bank-api info: API Started
+2023-02-08T19:35:37.634Z my-bank-api error: DELETE /account - accountService.deleteAccountById is not a function
+2023-02-08T19:36:04.937Z my-bank-api info: API Started
+2023-02-08T19:36:06.604Z my-bank-api error: DELETE /account - accountService.deleteAccountById is not a function
+2023-02-08T19:36:28.263Z my-bank-api info: API Started
+2023-02-08T19:36:31.128Z my-bank-api error: DELETE /account - The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received type boolean (true)
+2023-02-08T19:36:41.483Z my-bank-api info: API Started
+2023-02-08T19:36:43.398Z my-bank-api info: DELETE /account/:id - 3
+2023-02-08T19:36:47.901Z my-bank-api info: POST /account - {"id":4,"name":"Gustavo Del","balance":1300}
+2023-02-08T19:36:51.335Z my-bank-api info: GET /account
+2023-02-08T19:36:56.603Z my-bank-api info: DELETE /account/:id - 4
+2023-02-08T19:37:00.235Z my-bank-api info: GET /account
+2023-02-08T19:40:36.111Z my-bank-api info: API Started
+2023-02-08T19:41:07.752Z my-bank-api info: API Started
+2023-02-08T19:41:15.740Z my-bank-api info: API Started
+2023-02-08T19:43:23.701Z my-bank-api info: API Started
+2023-02-08T19:43:36.624Z my-bank-api info: API Started
+2023-02-08T19:43:52.472Z my-bank-api info: API Started
+2023-02-08T19:44:11.340Z my-bank-api info: API Started
+2023-02-08T19:44:14.518Z my-bank-api info: API Started
+2023-02-08T20:01:38.898Z my-bank-api info: GET /account
+2023-02-08T20:01:47.672Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T20:01:51.542Z my-bank-api info: POST /account - {"id":5,"name":"Gustavo Del","balance":1300}
+2023-02-08T20:02:00.182Z my-bank-api info: GET /account
+2023-02-08T20:02:15.451Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T20:03:43.331Z my-bank-api info: API Started
+2023-02-08T20:03:44.328Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T20:03:50.193Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T20:03:53.298Z my-bank-api info: GET /account
+2023-02-08T20:03:54.240Z my-bank-api info: GET /account
+2023-02-08T20:05:08.624Z my-bank-api info: API Started
+2023-02-08T20:05:11.050Z my-bank-api info: GET /account
+2023-02-08T20:05:14.724Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T20:05:17.647Z my-bank-api info: GET /account
+2023-02-08T20:06:26.191Z my-bank-api info: API Started
+2023-02-08T20:06:40.344Z my-bank-api info: API Started
+2023-02-08T20:07:05.637Z my-bank-api info: API Started
+2023-02-08T20:07:16.294Z my-bank-api error: PATCH /account - accountService.updateBalance is not a function
+2023-02-08T20:07:26.415Z my-bank-api info: API Started
+2023-02-08T20:07:26.623Z my-bank-api info: PATCH /account/updateBalance - {"id":1,"balance":4400}
+2023-02-08T20:07:29.705Z my-bank-api info: GET /account
+2023-02-08T22:31:15.042Z my-bank-api info: API Started
+2023-02-08T22:38:19.647Z my-bank-api info: API Started
+2023-02-08T22:38:24.444Z my-bank-api info: GET /account
+2023-02-08T22:38:27.998Z my-bank-api info: GET /account
+2023-02-08T22:39:46.336Z my-bank-api info: API Started
+2023-02-08T22:40:05.015Z my-bank-api info: API Started
+2023-02-08T22:40:41.842Z my-bank-api info: API Started
+2023-02-08T22:41:06.067Z my-bank-api info: API Started
+2023-02-08T22:41:24.273Z my-bank-api info: API Started
+2023-02-08T22:41:43.408Z my-bank-api info: POST /account - {"id":6,"name":"Gustavo Del","balance":500}
+2023-02-08T22:41:46.472Z my-bank-api info: GET /account
+2023-02-08T22:42:44.938Z my-bank-api info: API Started
+2023-02-08T22:43:05.817Z my-bank-api info: API Started
+2023-02-08T22:43:17.038Z my-bank-api info: API Started
+2023-02-08T22:44:54.682Z my-bank-api info: GET /account/:id
+2023-02-08T22:44:58.797Z my-bank-api info: GET /account/:id
+2023-02-08T22:45:01.874Z my-bank-api info: GET /account/:id
+2023-02-08T22:45:03.629Z my-bank-api info: GET /account/:id
+2023-02-08T22:45:17.028Z my-bank-api info: GET /account/:id
+2023-02-08T22:45:24.725Z my-bank-api info: GET /account/:id
+2023-02-08T22:47:44.025Z my-bank-api info: API Started
+2023-02-08T22:47:55.844Z my-bank-api info: API Started
+2023-02-08T22:48:11.859Z my-bank-api info: API Started
+2023-02-08T22:51:52.156Z my-bank-api info: API Started
+2023-02-08T22:52:10.484Z my-bank-api info: API Started
+2023-02-08T22:52:21.120Z my-bank-api info: API Started
+2023-02-08T22:54:52.498Z my-bank-api info: API Started
+2023-02-08T22:55:18.326Z my-bank-api info: API Started
+2023-02-08T22:55:26.182Z my-bank-api info: GET /account/:id
+2023-02-08T22:55:36.248Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T22:55:44.096Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riveen","balance":2400}
+2023-02-08T22:55:47.789Z my-bank-api info: PATCH /account/updateBalance - {"id":1,"balance":4400}
+2023-02-08T22:55:53.043Z my-bank-api info: DELETE /account/:id - 4
+2023-02-08T22:55:57.846Z my-bank-api info: GET /account
+2023-02-08T22:56:03.632Z my-bank-api info: DELETE /account/:id - 5
+2023-02-08T22:56:06.246Z my-bank-api info: GET /account
+2023-02-08T22:59:45.111Z my-bank-api info: API Started
+2023-02-08T23:03:16.680Z my-bank-api info: API Started
+2023-02-08T23:03:32.425Z my-bank-api info: API Started
+2023-02-08T23:04:42.012Z my-bank-api info: PATCH /account/updateBalance - {"id":1,"balance":4400}
+2023-02-08T23:04:48.583Z my-bank-api info: PATCH /account/updateBalance - {"id":1,"balance":4401}
+2023-02-08T23:04:52.657Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riveen","balance":2400}
+2023-02-08T23:04:57.460Z my-bank-api info: PUT /account - {"id":1,"name":"Guilherme Riven","balance":2400}
+2023-02-08T23:06:56.566Z my-bank-api info: GET /account
