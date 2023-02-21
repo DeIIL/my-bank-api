@@ -1,5 +1,6 @@
 import express from "express";
 import { graphqlHTTP } from "express-graphql";
+import basicAuth from "express-basic-auth";
 import winston from "winston";
 
 import { buildSchema } from "graphql";
@@ -7,6 +8,7 @@ import { buildSchema } from "graphql";
 import accountsRouter from "./routes/account.routes.js";
 import accountService from "./services/account.service.js";
 
+import cors from "cors";
 import { promises as fs } from "fs";
 
 const { readFile, writeFile } = fs;
@@ -66,8 +68,44 @@ const root = {
 
 const app = express();
 app.use(express.json());
+app.use(cors());
+app.use(express.static("public"));
 
-app.use("/account", accountsRouter);
+function getRole(username) {
+  if (username == "admin") {
+    return "admin";
+  }
+}
+
+function authorization(...allowed) {
+  const isAllowed = (role) => allowed.indexOf(role) > -1;
+
+  return (request, response, next) => {
+    if (request.auth.user) {
+      const role = getRole(request.auth.user);
+      if (isAllowed(role)) {
+        next();
+      } else {
+        response.status(401).send("Role not allowed");
+      }
+    } else {
+      response.status(403).send("User not found");
+    }
+  };
+}
+
+app.use(
+  basicAuth({
+    authorizer: (username, password) => {
+      const userMatches = basicAuth.safeCompare(username, "admin");
+      const pwdMatches = basicAuth.safeCompare(password, "admin");
+
+      return userMatches && pwdMatches;
+    },
+  })
+);
+
+app.use("/account", authorization("admin"), accountsRouter);
 
 app.use(
   "/graphql",
